@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Mollierberekening</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+    </head>
+
+    <body>
+        <main>
+            <!--input T-->
+            <label for="js--T1-input">T (&#8451)</label>
+            <input id="js--T1-input" type="number">
+
+            <!--input RV-->
+            <label for="js--RV-input">RV (%)</label>
+            <input id="js--RV-input" type="number">
+
+            <button id="js--submit1">Bereken</button>
+
+            <!--output-->
+            <table>
+                <tr>
+                    <th>DP</th>
+                    <td id="js--DP1-output"></td>
+                    <td>&#8451</td>
+                </tr>
+                <tr>
+                    <th>ABS vocht</th>
+                    <td id="js--ABS-output"></td>
+                    <td>g/kg</td>
+                </tr>
+            </table>
+
+
+            <!--input T-->
+            <label for="js--T2-input">T (&#8451)</label>
+            <input id="js--T2-input" type="number">
+
+            <!--input ABS vocht-->
+            <label for="js--ABS-input">ABS vocht(g/kg)</label>
+            <input id="js--ABS-input" type="number">
+
+            <button id="js--submit2">Bereken</button>
+
+            <!--output-->
+            <table>
+                <tr>
+                    <th>RV</th>
+                    <td id="js--RV-output"></td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <th>DP</th>
+                    <td id="js--DP2-output"></td>
+                    <td>&#8451</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
